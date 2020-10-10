@@ -1,0 +1,23 @@
+{
+    "host": "http://localhost:3000",
+    "dbURI": "mongodb://<dbuser>:<dbpassword>@ds027295.mongolab.com:27295/chatcatdb",
+    "sessionSecret": "catscanfly",
+    "fb":{
+        "clientID": "224892424512692",
+        "clientSecret": "6e081461320376c26ef2b7d9c66c58df",
+        "callbackURL": "//localhost:3000/auth/facebook/callback",
+        "profileFields": ["id","displayName","photos"]
+    },
+    "twitter":{
+        "consumerKey":"Y4wnzwsKGMyk7CG0UN0YmKYSg",
+        "consumerSecret":"73D0fEQFJ7hui0T0bbcysuN6V3pNtaOfcV6zjBuX8msGoMKNk0",
+        "callbackURL": "//localhost:3000/auth/twitter/callback",
+        "profileFields":["id","displayName","photos"]
+    },
+    "redis":{
+        "host":"127.0.0.1",
+        "port":6379,
+        "password":""
+    }
+    
+}
