@@ -1,0 +1,7 @@
+{
+    "host": "http://50.112.165.192 ",
+    "S3AccessKey": "AKIAJJLWZNBCQCUMXI3Q",
+    "S3Secret": "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",
+    "S3Bucket": "photogrid",
+    "dbURL": "mongodb://photogrid:myphotogrid@ds047107.mongolab.com:47107//photogrid"
+}
